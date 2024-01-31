@@ -7,7 +7,8 @@
   "licence": "MIT",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --minify --dts --clean --sourcemap --splitting",
-    "lint": "tsc"
+    "lint": "tsc",
+    "test": "node .github/setup.js"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
